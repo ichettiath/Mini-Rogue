@@ -47,10 +47,10 @@ char getCharacter()
         c = _getch();
         switch (c)
         {
-          case 'K':  return ARROW_LEFT;
-          case 'M':  return ARROW_RIGHT;
-          case 'H':  return ARROW_UP;
-          case 'P':  return ARROW_DOWN;
+          case 'A':  return ARROW_LEFT;
+          case 'D':  return ARROW_RIGHT;
+          case 'W':  return ARROW_UP;
+          case 'S':  return ARROW_DOWN;
           default:   return '?';
         }
     }
